@@ -47,10 +47,10 @@ const Bottom = () => {
           <Component color={'blue'} />
         </div>
         <div>
-          <Component />
+          <Component color={'green'} />
         </div>
         <div>
-          <Component />
+          <Component color={'yellow'} />
         </div>
       </div>
     </div>
