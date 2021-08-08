@@ -1,0 +1,19 @@
+{
+  "name": "rps-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "solhint 'contracts/**/*.sol' && eslint . && prettier --check --ignore-path ./.eslintignore '**'",
+    "prettier": "prettier --write 'contracts/**/*.sol'"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17",
+    "solhint": "^3.3.6",
+    "solhint-plugin-prettier": "^0.0.5",
+    "solidity-coverage": "^0.7.16"
+  }
+}
