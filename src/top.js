@@ -1,4 +1,9 @@
-import Swords from './Assets/Swords.png';
+import Swords from './assets/Swords.png';
+
+const handleFight = (e) => {
+  let fight = true;
+  console.log(fight);
+};
 
 const Top = () => {
   return (
@@ -14,7 +19,10 @@ const Top = () => {
         <div className='m-4 flex justify-between w-min'>
           <h1>0x0b31a8a7sdfasdf... </h1>
           <div>
-            <button className='bg-white-500 hover:bg-blue-700 text-blue font-bold py-1 px-2 rounded absolute'>
+            <button
+              className='bg-white-500 hover:bg-blue-700 text-blue font-bold py-1 px-2 rounded absolute'
+              onClick={handleFight}
+            >
               Fight
             </button>
           </div>

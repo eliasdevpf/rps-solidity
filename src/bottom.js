@@ -1,7 +1,7 @@
-import Crown from './Assets/Crown.png';
-import Laurel from './Assets/Laurel.png';
-import Skull from './Assets/Skull.png';
-import Bounty from './Assets/Bounty.png';
+import Crown from './assets/Crown.png';
+import Laurel from './assets/Laurel.png';
+import Skull from './assets/Skull.png';
+import Bounty from './assets/Bounty.png';
 import Component from './component';
 
 const Bottom = () => {
@@ -42,7 +42,7 @@ const Bottom = () => {
         </div>
       </div>
 
-      <div className='flex-col justify- h-2/6 right-4'>
+      <div className='m-5 flex-col justify- h-2/6 right-4'>
         <div>
           <Component color={'blue'} />
         </div>

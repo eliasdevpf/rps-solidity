@@ -5,7 +5,7 @@ import Middle from './middle';
 
 function App() {
   return (
-    <div className=' w-full h-full absolute'>
+    <div className=' w-full h-full '>
       <Top />
       <Middle />
       <Bottom />
